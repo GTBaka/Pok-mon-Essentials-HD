@@ -51,8 +51,10 @@ module Settings
   MAX_COINS            = 999_999
   # The maximum number of Battle Points the player can have.
   MAX_BATTLE_POINTS    = 99_999
-  # The maximum amount of soot the player can have.
+  # The maximum amount of Soot the player can have.
   MAX_SOOT             = 99_999
+  # The maximum amount of Gimmighoul Coins the player can have.
+  MAX_GIMMIGHOUL_COINS = 999
   # The maximum length, in characters, that the player's name can be.
   MAX_PLAYER_NAME_SIZE = 12
   # A set of arrays each containing a trainer type followed by a Game Variable
