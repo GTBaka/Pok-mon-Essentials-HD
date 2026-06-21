@@ -474,16 +474,3 @@ class DependentEventSprites
     end
   end
 end
-
-class Spriteset_Map
-  alias footsteps_update update
-  def update
-    footsteps_update
-    # Only update events that are on-screen
-    for sprite in @character_sprites
-      if sprite.character.is_a?(Game_Event)
-        sprite.update_footsteps
-      end
-    end
-  end
-end
